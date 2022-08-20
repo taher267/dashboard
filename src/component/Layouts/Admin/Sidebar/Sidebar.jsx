@@ -5,6 +5,7 @@ import { FaLayerGroup } from "react-icons/fa";
 import { GrSettingsOption } from "react-icons/gr";
 import { BiLogOutCircle } from "react-icons/bi";
 import { useLocation } from "react-router-dom";
+
 export default function Sidebar({ extend }) {
   const { pathname } = useLocation();
 

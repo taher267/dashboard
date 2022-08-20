@@ -123,3 +123,15 @@
 .hide:hover .sideMenu li a {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+  .hide {
+    width: 60px;
+  }
+  .hide:hover {
+    width: 200px;
+  }
+}
